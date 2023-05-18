@@ -1,0 +1,12 @@
+#bgimg{
+	width: 100vw;
+	height: 200vh;
+	background-image: url("images (1).jpg");
+	/*here the url is the name of image*/
+	/*background-color: red;*/
+	background-repeat: no-repeat;
+	background-size: contain;
+	background-attachment: scroll;
+	/*here scroll is used when we scroll then image also scroll if we
+	dont want that then give attachment as fiexd*/
+}

@@ -1,0 +1,23 @@
+*{
+   margin:0;
+   padding:0; 
+}
+
+.container{
+	height:300rem;
+	width: 300rem;
+	background-color: red;
+	margin: 4rem 5rem;
+}
+.outer{
+	height: 10rem;
+	width: 10rem;
+	background-color: blue;
+	position: sticky;
+
+}
+.inner{
+	height: 10rem;
+	width: 10rem;
+	background-color: yellow;
+}

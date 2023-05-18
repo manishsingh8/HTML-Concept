@@ -1,0 +1,97 @@
+#container{
+	height: 50vh;
+	width: 60vw;
+	background-color: lightgrey;
+	/*display:flex;*/
+	/*justify-content: center;*/
+	/*align-items: center;*/
+	/*flex-wrap: wrap;*/
+	/*flex-direction: column-reverse;*/
+
+
+}
+#container div{
+	height: 100px;
+	width: 100px;
+}
+
+#div1{
+	background-color: red;
+	/*flex-grow: 1;*/
+	margin: 0px 5px;
+}
+#div2{
+	background-color: yellow;
+	/*flex-grow: 2;*/
+	margin: 0px 5px;
+}
+#div3{
+	background-color: blue;
+	flex-grow: 3;
+	margin: 0px 5px;
+}
+#div4{
+	background-color: black;
+	flex-grow: 4;
+	margin: 0px 5px;
+}
+
+/*flex wrap*/
+/*#container1{
+	height: 50vh;
+	width: 50vw;
+	background-color: lightgrey;
+	display:flex;
+	flex-direction:row;
+	flex-wrap:wrap ;
+
+}*/
+/*#container1 div{
+	height: 200px;
+	width: 200px;
+}
+
+#div4{
+	background-color: maroon;
+}
+#div5{
+	background-color: gray;
+}
+#div6{
+	background-color: pink;
+}
+#div7{
+	background-color: blue;
+}
+#div8{
+	background-color: red;
+}
+
+
+/*flex grow flex shrink*/
+/*#container2{
+	height: 500px;
+	width: 500px;
+	background-color: lightgrey;
+	display:flex;
+	
+}
+#container2 div{
+	height: 200px;
+	width: 200px;
+}
+*/*/
+/*#div9{
+	background-color: maroon;
+	flex-grow: 1;*/
+	/*here in both div we gave 1 so total available space
+	devided in them like 1/2 for first div and 1/2 for second div
+     if there is 4 given to first div then divided part will be
+     4/5 and 1/5 and this is same in shrink the one has greater value
+     will shrink more.
+	*/
+/*}
+#div10{
+	background-color: yellow;
+	flex-grow:1;
+}*/

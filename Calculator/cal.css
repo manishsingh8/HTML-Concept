@@ -1,0 +1,60 @@
+*{
+    margin:0px;
+    padding:0px;
+}
+
+#div1{
+	height:300px;
+	width:300px;
+	margin:40px;
+	display: flex;
+	flex-direction: column;
+	/*justify-content: flex-end;*/
+	background-color:lightgray;
+	border:2px solid black ;
+	 
+    
+}
+
+#display1{
+
+	height: 25%;
+	width: 100%;
+	background-color:beige;
+}
+#display{
+	color: blue;
+	font-weight: bold;
+	font-size: 25px;
+}
+
+#con{
+	 height:80%;
+	 width:100%;
+	 /*border: 1px solid black;*/
+}
+
+.row1{
+	height:20%;
+	width: 100%;
+	background-color: red;
+	display: flex;
+	flex-direction: row;
+}
+
+.button{
+	   height:100%;
+	   width:25%;
+	   font-weight: bold;
+	   font-size: 30px;
+}
+
+.bgcolor{
+	background-color: thistle;
+}
+.mouse1:hover{
+	background-color: gray;
+}
+.mouse:hover{
+	background-color: teal;
+}

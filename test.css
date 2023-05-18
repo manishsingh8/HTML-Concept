@@ -1,0 +1,67 @@
+.btn_color{  
+    height: 1.5rem;
+    width: 1.5rem;
+    border-radius: 50%;
+    margin-left: 1rem;
+    border: none;
+    margin-top: 3rem;
+    cursor: pointer;
+}
+.b1{
+        background-color: #e809bf;
+}
+
+.b1:hover{
+         border:4px solid rgba(255, 140, 234,.7);
+          margin-left: 1rem;
+    	  transform: translateY(-3px);
+}
+@keyframes rotate{
+	0%{
+        transform: rotate(0deg);
+	}
+	25%{
+            transform: rotate(360deg);
+	}
+	50%{
+               transform: rotate(720deg);
+	}
+	75%{
+            transform: rotate(1080deg);
+	}
+	100%{
+             transform: rotate(1440deg);
+	}
+
+}
+
+.animate{
+	height:5rem;
+	width: 5rem;
+	border:red;
+	position: absolute;
+	animation: rotate 5s ease-in-out 1;
+
+}
+
+
+
+/*.clear_icon {
+  position: absolute;
+  top: 5px;
+  right: 5px;
+  cursor: pointer;
+  font-size: 14px;
+  color: red;
+  opacity: 0;
+  transition: opacity 0.3s;
+}
+
+.clear_icon.visible {
+  opacity: 1;
+}
+
+.clear_icon:hover {
+  color: darkred;
+}
+*/

@@ -1,0 +1,431 @@
+
+body{
+
+	margin: 0px; 
+}
+
+/**{
+	box-sizing: border-box;
+	margin: 0px;
+	padding: 0px;
+
+}*/
+
+:root{
+
+    --section-color-blue:#043593;
+
+}
+/*this is css variable */
+
+
+
+/*Body Header*/
+
+#header{
+	/*display: inline;*/
+	height:65vh;
+	opacity: .7;
+	background-image: url("resume1.jpg");
+	background-position: center;
+	background-size: cover;
+	background-attachment: fixed;
+}
+
+/*Horizontal List*/
+
+.list{
+
+	list-style: none;
+	padding-left:0px;
+	margin:  0px;
+
+
+}
+
+.list li{
+	display: inline-block;
+	margin: 20px 10px 0px 10px;
+}
+
+.list li a{
+	color: white;
+	text-decoration: none;
+	
+}
+.nav-menu li a{
+.transition: color 2s, border-bottom 5s;
+}
+
+.nav-menu li a:hover{
+	color: lightgrey;
+	border-bottom: 2px solid white;
+
+
+}
+
+.h1{
+	color: black;
+	margin-top: 220px;
+}
+
+#div1{
+	width: 30px;
+	height: 30px;
+	margin-left: 320px;
+	display: inline;
+
+	}
+
+.text-center{
+	text-align: center;
+}
+
+#social-content{
+	margin-top: 20vh;
+}
+
+#my-name{
+	font-size: 2.5rem;
+	letter-spacing: .1rem;
+	font-weight: 700;
+	margin-bottom: 0.5rem;
+
+
+}
+
+.social-icon li a{
+	padding:7px;
+	border-radius: 50%;
+}
+.social-icon li a:hover{
+	box-shadow: 0px 0px  6px 4px black;  
+}
+
+section{
+	height: 85vh;
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+section:nth-child(2n){
+	background-color: skyblue;
+}
+section:nth-child(2n+1){
+	background-color: white;
+}
+
+
+
+/*about*/
+#about{
+	height: auto;
+	width: 100% ;
+	position: relative;
+}
+
+#paragraph {
+	height: 95%;
+	width: 95%;
+	text-align: justify;
+	/*background-color: lightgray;*/
+	align-items:center;
+	justify-content: center;
+	/*border:2px solid black;*/
+}
+#paragraph p{
+    display: block;
+	margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+
+#image{
+	height: 12rem;
+	width: 12rem;
+	margin:auto; 
+	margin-top: -17vh;
+	
+}
+
+#image img{
+	height:100%;
+	width: 100%;
+	border-radius: 50%;
+	box-shadow: 0px 0px  6px 4px white;
+	/*object-fit: initial;*/
+}
+
+/*skill*/
+.section-heading{
+        width: auto;
+        padding: 17px 10px 10px;
+        font-weight: 400;
+
+
+}
+
+.section-heading span{
+	font-size: 40px;
+	color: #2857a4;
+	display: inline-block;
+	/*padding-top: 10px;*/
+	margin-right: .5rem;
+
+}
+
+.skill-display{
+	height:100%;
+	width:30%;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	/*border:2px solid black;*/
+
+
+}
+.skill-progress{
+	height: 25px;
+	width:100px;
+	background-color: lightgray;
+	border-radius: 15px;
+	margin: 3.2px;
+}
+
+.skill-progress:hover{
+	box-shadow:0px 0px  6px 4px white; 
+}
+
+
+/*.skill-progress {
+	height:inherit;
+	width:80%;
+	background-color: blue;
+	border-radius: 11px;
+	display: flex;
+	color: white;
+	align-items: center;
+	justify-content: center;
+
+
+}*/
+.ninty-percent{
+	   height: 100%;
+       background-color:blue;
+       width:85%;
+       border-radius: 11px; 
+}
+.seventy-percent{
+	 height: 100%;
+	 background-color:orange;
+       width:70%;
+       border-radius: 11px; 
+
+}
+.sixty-percent{
+	 height: 100%;
+	 background-color:green;
+       width:60%;
+       border-radius: 11px; 
+
+}
+.seventy-five-percent{
+	 height: 100%;
+	 background-color:purple;
+       width:75%;
+       border-radius: 11px; 
+
+}
+.skill-name{
+	height: 100%;
+	width:75%;
+	border-radius: 11px;
+	display: flex;
+	color: white;
+	align-items: center;
+	margin-left: 10px;
+	font-weight: bold;
+	text-transform: uppercase;
+
+
+}
+
+/*.skill-progress .skill1 p{
+	margin-left: 10px;
+}*/
+/* .skill2{
+	height: 100%;
+	width:75%;
+	border-radius: 11px;
+	display: flex;
+	color: white;
+	align-items: center;
+	justify-content: center;
+
+
+}*/
+/*.skill-progress .skill2 p{
+	margin-left: 10px;
+}*/
+/*.skill3{
+	height: 100%;
+	width:55%;
+	border-radius: 11px;
+	display: flex;
+	color: white;
+	align-items: center;
+	justify-content: center;
+
+
+}*/
+/*.skill-progress .skill3 p{
+	margin-left: 10px;
+}*/
+ /*.skill4{
+	height: 100%;
+	width:67%;
+	border-radius: 11px;
+	display: flex;
+	color: white;
+	align-items: center;
+	justify-content: center;
+
+
+}*/
+/*.skill-progress .skill4 p{
+	margin-left: 10px;
+}*/
+
+
+
+/*Experience*/
+.experience-display{
+	width: 95%;
+	height: 100%;
+	border:2px solid black;
+}
+.experience{
+	border:2px solid black;
+	width:95%;
+	height:auto;
+	display:flex;
+	flex-wrap: wrap; 
+	background-color: lightgray;
+}
+
+.timeline{
+    position:relative;
+	height:100%;
+	width:75%;
+	border:2px solid black;
+}
+
+.timeline-box{
+	height:31%;
+    width: 43%;
+    border:2px solid black;
+    margin:6px;
+}
+
+.timeline-box:nth-child(2n){
+	margin-left:53%;
+}
+
+
+
+
+
+
+
+
+
+.timeline-divider{
+	position: absolute;
+	height: 75%;
+	width: 0;
+	border: 3px dashed #0096fa6b;
+	top:10%;
+	left: 50%;
+
+}
+
+
+
+.timeline-traveller{
+
+	
+}
+
+.designation p{
+	margin: 0px;
+	padding: 0px;
+	font-weight: bold;
+	color: darkblue;
+	display: flex;
+	margin-left: 15px;
+	justify-content: flex-end;
+
+}
+.designation p::before{
+	content: '';
+	height: 20px;
+	width: 20px;
+	background-repeat: no-repeat;
+    display: inline-block;
+    background-size: contain;
+	background-image: url(download.png);
+
+
+}
+
+.company-name p{
+	margin: 0px;
+	display: flex;
+	justify-content: flex-end;
+	color: orange;
+
+}
+.date p{
+	margin:0px;
+	margin-left: 75px; 
+	color:green;
+	font-size: 10px;
+	display: flex;
+	justify-content: flex-end;
+}
+
+.details p{
+	margin:0px; 
+}
+
+
+@media screen and (max-width: 600px){
+
+	.timeline{
+    position:relative;
+	height:100%;
+	width:75%;
+	border:none;
+}
+	.timeline-divider{
+		left:0px;
+	}
+	 .timeline-box{
+		width:98%;
+		justify-content: center;
+	}
+
+	.timeline-box:nth-child(2n){
+		margin-left: 4%;
+	}
+	.timeline-box:nth-child(2n+1){
+		margin-left: 4%;
+	}
+
+
+
+}
+

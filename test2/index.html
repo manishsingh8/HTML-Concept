@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Zoom In/Out Image</title>
+
+	<link rel="stylesheet" type="text/css" href="index.css">
+</head>
+<body>
+  <div class="container">
+ <img src="loader.png" id="animationImg" class="size">
+	<img src="pinkumb.png" id="animation" class="anim">
+</div>
+<button id="btn1" class="btn_color b1" onclick="startAnimation2();startAnimation()">
+  
+</button>
+
+</script> 
+<script type="text/javascript">
+	function startAnimation() {
+  var animationImg = document.getElementById("animationImg");
+  animationImg.classList.add("animate");
+  animationImg.addEventListener("animationend", function () {
+    animationImg.classList.remove("animate");
+  });
+}
+function startAnimation2() {
+  var animationImg = document.getElementById("animation");
+  animationImg.classList.add("fadeIn");
+  animationImg.addEventListener("animationend", function () {
+    animationImg.classList.remove("fadeIn");
+  });
+}
+
+</script>
+</body>
+</html>

@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Zoom In/Out Image</title>
+	<link rel="stylesheet" type="text/css" href="test.css">
+</head>
+<body>
+
+	
+<button id="btn1" class="btn_color b1" onclick="startAnimation()">
+   <img src="loader.png" id="animationImg">
+</button>
+
+</script> 
+<script type="text/javascript">
+	function startAnimation() {
+  var animationImg = document.getElementById("animationImg");
+  animationImg.classList.add("animate");
+  animationImg.addEventListener("animationend", function () {
+    animationImg.classList.remove("animate");
+  });
+}
+
+</script>
+</body>
+</html>

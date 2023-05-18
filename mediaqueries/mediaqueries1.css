@@ -1,0 +1,58 @@
+*{
+	margin: 0px;
+	padding:0px;
+}
+
+#div{
+	
+	width: 100%;
+	border: 1px solid black;
+}
+
+
+@media screen and (min-width: 600px){
+	#div{
+		width:80%;
+	}
+}
+
+
+@media screen and (min-width:700px){
+	#div{
+		width:60%;
+	}
+}
+
+
+
+
+
+
+
+/*@media screen and (max-width:900px){
+	#div{
+	
+	width: 90%;
+	
+}
+}
+
+@media screen and (max-width:600px){
+	#div{
+	
+	width: 100%;
+	
+}
+}
+@media (any-hover: hover) {
+  p:hover {
+    background: yellow;
+  }
+}*/
+/*@media (400px <= width <= 700px) {
+  body {
+    line-height: 1.4;
+  }
+}*/
+
+

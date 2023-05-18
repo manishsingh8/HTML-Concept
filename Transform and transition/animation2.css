@@ -1,0 +1,142 @@
+*{
+	margin: 0px;
+	padding:0px;
+}
+
+@keyframes firstAnimation{
+
+/*it is starting possition cant be written as 0%*/	
+from{
+		border-radius: 0%;
+		height: 0%;
+		width: 0%;
+	}
+
+	25%{
+		border-radius:12.5%;
+	} /*this 25% means this property will run when the
+	animation will completed 25%*/
+
+
+/*it is ending possition cant be written as 100%*/
+to{
+		border-radius: 50%;
+	}
+}
+
+.animate{
+	height: 100px;
+	width: 100px;
+	background-color: cyan;
+
+	position: absolute;
+	top: 10%;
+	left: 10%;
+
+
+	animation: firstAnimation 1s ease-in-out 4 alternate ;
+	/*animation: rotateAnimation 2s ease-in-out 2;*/
+	 
+}
+
+
+@keyframes bounceAnimation{
+
+	0%{
+		transform: translateY(-100%);
+           
+	}
+	25%{
+		transform:translateY(0%);
+	}
+	50%{
+		transform:translateY(-50%); 
+	}
+
+	100%{
+
+		transform: translateY(0%);
+
+	}
+
+
+} 
+
+.animate2{
+	height: 100px;
+	width: 100px;
+	background-color: lightblue;
+
+	position: absolute;
+	top: 10%;
+	left: 30%;
+	animation: bounceAnimation 1s ease-in-out 2;
+	 
+}
+
+@keyframes rotateAnimation{
+
+	0%{
+		transform:rotate(-360deg);
+           
+	}
+
+	
+	50%{
+		transform: rotate(360deg);
+	}
+	
+
+	100%{
+
+		transform: rotate(-360deg);
+
+	}
+	}
+
+
+
+.animate3{
+	height: 100px;
+	width: 100px;
+	background-color: lightgreen;
+	position: absolute;
+	top: 10%;
+	left: 50%;
+	animation: rotateAnimation 3s ease-in-out 1;
+	 
+}
+
+@keyframes fadeIn{
+
+	0%{
+		opacity: .5;
+           
+	}
+
+	50%{
+		opacity: 0;
+	}
+	
+
+	100%{
+
+		opacity: 1;
+	}
+	}
+
+
+
+.animate4{
+	height: 2rem;
+	width: 8rem;
+	position: absolute;
+	top: 40%;
+	left: 10%;
+	border: 1px solid black;
+	text-transform: uppercase;
+	text-align: center;
+	background-color:lightgray; 
+	animation: fadeIn 3s ease-in-out 2;
+	 
+}

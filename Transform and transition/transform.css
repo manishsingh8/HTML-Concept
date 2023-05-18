@@ -1,0 +1,32 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+
+/*.transf{
+	height:10rem;
+	width: 10rem;
+	background-color: cyan;
+	position: absolute;
+	top:20%;
+    left:20%;
+    transform:skewY(120deg);
+
+}*/
+
+.transi{
+	height:10rem;
+	width: 10rem;
+	background-color: red;
+	position: absolute;
+	top:20%;
+    left:20%;
+    transition: 10s ease-in-out 2s;
+   
+
+}
+
+.transi:hover{
+	height: 400px;
+	width: 400px;
+}

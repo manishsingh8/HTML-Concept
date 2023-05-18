@@ -1,0 +1,22 @@
+#outer{
+	border:2px solid black;
+	
+}
+#div1{
+	width: 200px;
+	height: 200px;
+	background-color: red;
+}
+#div2{
+	width: 200px;
+	height: 200px;
+	background-color: yellow;
+	position: sticky;
+	top:20px;
+	left: 20px;
+}
+#div3{
+	width: 200px;
+	height: 200px;
+	background-color: blue;
+}

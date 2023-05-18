@@ -1,0 +1,32 @@
+*{
+       margin: 0px;
+       padding: 0px;
+}
+
+html{
+        font-size: 15px;
+}
+
+
+
+
+#div1{
+	height: 20vh;
+	width: 25%;
+	border: 1px solid black;
+	background-color: cyan;
+}
+/*here if we write rem and uncomment upper html
+then it will take the size according to html size */
+/*#para{
+	font-size: 5rem;
+	padding:10rem;
+
+}*/
+/*here because we define em and if we uncomment html then
+font size become the parent for padding and
+for font-size the parent will be html*/
+#para{
+	font-size: 5em;
+	padding:10em;
+}

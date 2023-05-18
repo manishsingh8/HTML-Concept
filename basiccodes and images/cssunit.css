@@ -1,0 +1,31 @@
+#div1{
+	height:15rem;
+	/*30vh;*/
+	/*200px;*/
+	width:20rem;
+	/*60vw;*/
+	/*300px;*/
+	background-color:hsl(120,25%,40%);
+	/*rgba(25,40,10,0.5);*/
+	/*rgb(25,30,100); */
+	/*red;*/
+	border-radius: 10px;
+}
+
+#div2{
+	height:50%;
+	/*100px;*/
+	width:50%; 
+	/*100px;*/
+	background-color: blue;
+	border-width: 4px;
+	border-style: solid;
+	border-color: black;
+	border-radius: 10px;
+}
+
+#para{
+	border-left: 10px solid green;
+	/*4px solid red;*/
+
+}

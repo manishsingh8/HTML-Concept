@@ -1,0 +1,85 @@
+#col{
+	color:blue;
+}
+.logo1{
+
+	position: fixed;
+
+}
+
+/*main*/
+
+#m{
+   width: 830px;
+   }	
+
+main{
+	width: 70%;
+	display: inline-block;
+	margin-left: 90px;
+	text-align: justify-all;
+
+}
+main p {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+
+
+}
+
+
+
+/*Aside */
+
+#aside{
+	display: inline-block;
+	width: 21%;
+	margin-left: 15px;
+	vertical-align:top;
+	margin-top: 40px;
+}
+
+.aside{
+	border-top: 5px solid black;
+}
+
+.aside input{
+	display:block;
+	background-color:white;
+	margin-top: 4px;
+	margin-bottom: 4px;
+	font-size: 1rem;
+}
+
+.aside button{
+	margin-top: 10px;
+	margin-bottom: 2px;
+	background-color: black;
+	color: white;
+	border-radius: 5px;
+
+}
+
+.title{
+	font-size: 1.3rem;
+}
+/*here we ues the property of nesting all the input which
+is present in aside uses this display*/
+
+#div2{
+	margin-bottom: 20px;
+}
+#input{
+	margin-top: 25px;
+}
+#div22{
+	margin-top: 25px;
+}
+ #ul p{
+	font-size: 1.5rem;
+	color: red;
+
+}

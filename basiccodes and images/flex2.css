@@ -1,0 +1,62 @@
+
+/*#section:target div{
+	background-color: cyan;
+	visibility: visible;
+	transition:5s;
+
+}*/
+
+
+#cantainer{
+	height:400px;
+	width:400px;
+	background-color: lightgray;
+	display: flex;
+	justify-content: space-around;
+	
+	
+
+	
+
+}
+/*
+#cantainer:target{
+	height:200px;
+	width: 200px;
+	margin-top: 200px;
+	margin-left: 200px;
+	border:2px solid black;
+	background-color: cyan;
+}
+a:hover{
+	background-color: red;
+
+}*/
+
+#div1{
+	height: 100px;
+	width: 100px;
+	background-color: red;
+}
+
+#div1 p::before{
+
+	content: '';
+	width: 20px;
+	height: 20px;
+	display: inline-block;
+	background-size: contain;
+	background-image: url(email.png);
+}
+
+
+#div2{
+	height: 100px;
+	width: 100px;
+	background-color: yellow;
+}
+
+
+
+
+
