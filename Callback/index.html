@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Learning CallBack</title>
+</head>
+<body>
+<h1>Learning the callback function</h1>
+
+<p id="demo">this is the text to show the result</p>
+
+<script>
+
+function seyHi(){
+	console.log("Hii..");
+}
+ 
+function seyHello(){
+	console.log("Hello..");
+}
+ 
+function add(num1,num2,callback){
+      console.log(num1 +num2);	
+      callback();
+}
+
+// add(10,20);
+// passing the seyHi and seyHello funciton as an agrument to add funciton
+add(20,20,seyHi);
+add(30,40,seyHello);
+
+// passing the anonymus function(a function with no name) to add function
+add(50,50,function(){
+       console.log("this is a anonymous function");
+});
+
+
+
+// in below example we can directly call the seyHi function to the add function like..
+// function add(num1,num2,){
+//       console.log(num1 +num2);	
+//       // callback();
+//       seyHi();
+//       // the problem here is that if we want to call the seyHello funciton as an argument then we can't call that here that's why we use the concept of callback
+//       // with the callback we can call both fucntion by just passing them to add function as agument
+// }
+
+
+</script>
+</body>
+</html>
