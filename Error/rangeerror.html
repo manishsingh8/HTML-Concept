@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Range Error</title>
+</head>
+<body>
+
+<script type="text/javascript">
+	
+	var  a = 51.54323;
+	var res = a.toFixed(10);//it will take 3 number after decimal the range of toFixed is 0-100 //if we give range more than 100 or less than 0 then it will throw range error
+	console.log(res);// no error because 10 is in the range
+
+	// var res2 = a.toFixed(104);
+	// console.log(res2);//range error
+
+	//or
+
+	var checkRange= (num)=>{
+		if(num >50){
+			throw new RangeError("Number is greater");
+		}
+		return true;
+	}
+	console.log(checkRange(10));
+	console.log(checkRange(60));//error
+
+</script>
+</body>
+</html>
